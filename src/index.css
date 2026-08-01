@@ -7,7 +7,7 @@
 
 @theme {
   --font-body: "inter, sans-serif";
-  --font-heading: "syne, sans-serif";
+  --font-heading: "syne", serif;
   --color-gradient: linear-gradient(
   90deg,
   #FF4D6D 0%,
