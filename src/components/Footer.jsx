@@ -12,20 +12,20 @@ const Footer = () => {
                 <img src={Logo} alt="" />
                 <div>
                     <h5 className="font-medium mb-5">
-                        Services
+                        Skills
                     </h5>
                     <ul className="flex flex-col gap-2 text-base lg:text-lg">
                         <li>
-                            <a href="/">Web Design</a>
+                            Web Design
                         </li>
                         <li>
-                            <a href="/">UI/ UX</a>
+                            UI/ UX
                         </li>
                         <li>
-                            <a href="/">Web Development</a>
+                            Web Development
                         </li>
                         <li>
-                            <a href="/">Branding</a>
+                            Branding
                         </li>
                     </ul>
                 </div>
@@ -36,15 +36,33 @@ const Footer = () => {
                             Mon - Fri: 9:00 - 5:00
                         </li>
                         <li>
-                            24/7 Email
+                            <a href="mailto:rkhattak042@gmail.com">24/7 Email</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h5 className="font-medium mb-5">Contact</h5>
+                    <h5 className="font-medium mb-5">Technologies</h5>
                     <ul className="flex flex-col gap-2 text-base lg:text-lg">
                         <li>
-                            <a href="mailto:rkhattak042@gmail.com">rkhattak042@gmail.com</a>
+                            Python
+                        </li>
+                        <li>
+                            Javascript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                        <li>
+                            C/C++
+                        </li>
+                        <li>
+                            Tailwind
+                        </li>
+                        <li>
+                            Node/Express
+                        </li>
+                        <li>
+                            SQL
                         </li>
                     </ul>
                 </div>
