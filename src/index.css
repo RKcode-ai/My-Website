@@ -10,11 +10,8 @@
   --font-heading: "syne", serif;
   --color-gradient: linear-gradient(
   90deg,
-  #FF4D6D 0%,
-  #BD3EB2 25%,
-  #7B2FF7 50%,
-  #2F86F7 75%,
-  #2FF7ED 100%
+  #F2994A 0%,
+  #F2C94C 100%
   );
 }
 
@@ -104,6 +101,14 @@
 
   .menu-link {
     @apply text-[10vw] lg:text-[6vw] font-heading font-medium uppercase lg:opacity-60 hover:opacity-100;
+  }
+  .menu-link:hover {
+    background-image: var(--color-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: all;
+    transition-duration: 300ms;
   }
 
 }
