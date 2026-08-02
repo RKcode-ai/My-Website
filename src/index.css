@@ -103,7 +103,7 @@
   }
 
   .menu-link {
-    @apply text-[10vw lg:text-[6vw] font-heading font-medium uppercase lg:opacity-60 hover:opacity-100;
+    @apply text-[10vw] lg:text-[6vw] font-heading font-medium uppercase lg:opacity-60 hover:opacity-100;
   }
 
 }

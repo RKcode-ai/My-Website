@@ -2,6 +2,7 @@ import React, {useRef, useState} from 'react'
 import Logo from '../assets/images/logo.svg'
 import {gsap} from 'gsap'
 import {useGSAP} from "@gsap/react";
+import {Link} from "react-router-dom";
 
 gsap.registerPlugin(useGSAP)
 
@@ -37,9 +38,9 @@ const Navbar = () => {
 
             <div className={`fixed z-20 inset-0 bg-black text-white flex flex-col items-center justify-center
                 text-3xl gap-8 transition-transform duration-500 ${menuOpen ? `translate-y-0 `: `-translate-y-full`} `} onClick={() => setMenuOpen(false)}>
-                <a href="/" className={"menu-link"}>Home</a>
-                <a href="/" className={"menu-link"}>Projects</a>
-                <a href="/" className={"menu-link"}>Contact</a>
+                <Link to="/" className={"menu-link"}>Home</Link>
+                <Link to="/projects" className={"menu-link"}>Projects</Link>
+                <Link to="mailto:rkhattak042@gmail.com" className={"menu-link"}>Contact</Link>
             </div>
         </>
     )
