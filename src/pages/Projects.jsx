@@ -6,10 +6,10 @@ const Projects = () => {
         <>
             <div className={`bg-white text-black`}>
                 <div className={`main-container py-28`}>
-                    <h2 className={`text-6xl lg:text-[8vw] font-heading font-bold leading-[1]
+                    <h2 className={`text-6xl lg:text-[8vw] font-heading font-bold leading-none
                     tracking-tight text-center`}>Projects</h2>
                     <div className={`grid md:grid-cols-2 gap-8 mt-8 lg:mt-16`}>
-                        {projects.map((id, name, image, link) => (
+                        {projects.map(({id, name, image, link}) => (
                             <a key={id} href={link} className={`overflow-hidden flex flex-col`} >
                                 <div className={`overflow-hidden group rounded-2xl h-full`}>
                                     <img src={image} alt={name} className={`w-full object-cover h-full transition-transform

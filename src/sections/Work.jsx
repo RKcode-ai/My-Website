@@ -39,11 +39,11 @@ const Work = () => {
                 items-start md:items-end">
                     <div className="max-w-xl">
                         <h3 className="mb-3">Selected Work</h3>
-                        <p className="text-lg lg:text-xl">A showcase of my selected work of arts of picasso!</p>
+                        <p className="text-lg lg:text-xl">A curated selection of full-stack applications, modern web interfaces, and technical initiatives I have built for the community.</p>
                     </div>
                     <GradientButton
                         text="Explore All"
-                        link=""
+                        link="/projects"
                         className="btn-light"
                     />
                 </div>
@@ -51,8 +51,8 @@ const Work = () => {
                 <div ref={projectRef}>
                     <div className="flex gap-4 lg:gap-8 ms-4 lg:ms-[40%] mt-6">
                         {projects.map(({id, name, image, link}) => (
-                            <a key={id} href={link} className="relative rounded-2xl w-full min-w-[340px]
-                        lg:min-w-xl h-64 lg:h-96 block overflow-hidden group]:">
+                            <a key={id} href={link} className="relative rounded-2xl w-full min-w-85
+                        lg:min-w-xl h-64 lg:h-96 block overflow-hidden group">
                                 <img src={image} alt="" className="w-full h-full object-cover transition-transform
                             duration-300 group-hover:scale-105" />
                                 <span className="absolute top-4 right-4 bg-black text-white

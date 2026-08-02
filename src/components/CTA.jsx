@@ -32,7 +32,7 @@ const Cta = () => {
                     Let's get connected!</h4>
                     <GradientButton
                         text="Book a call"
-                        link="/"
+                        link="https://www.calendly.com/rayyan-khattak"
                     />
                 </div>
             </div>

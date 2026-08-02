@@ -44,7 +44,7 @@ const About = () => {
                     robust backend languages like Python and C++ to bring complex ideas to life.
                     Beyond writing clean, efficient code and maintaining a daily routine of
                     algorithmic problem-solving, I have a deep appreciation for photography.
-                    Framing the perfect shot has trained my eye for composition and detail—skills
+                    Framing the perfect shot has trained my eye for composition and detail, skills
                     that directly translate into crafting pixel-perfect, user-centric web experiences.
                     Whether I am developing something out of curiosity, leading technical workshops, or
                     learning a new language, I thrive on continuous growth and creative problem-solving.
