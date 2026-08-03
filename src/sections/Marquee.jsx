@@ -11,9 +11,9 @@ const Marquee = () => {
                         CREATE <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
                         DESIGN <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
                         INSPIRE <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
-                        CREATE <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
+                        LEAD <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
                         DESIGN <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
-                        INSPIRE <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
+                        LEAD <img src={star} alt="star" className="marquee-star1 w-[7vw]" />
                     </span>
                 </div>
                 <div className="whitespace-nowrap animate-marquee-reverse text-6xl lg:text-[7vw] font-heading font-semibold
@@ -22,9 +22,9 @@ const Marquee = () => {
                         CREATE <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
                         DESIGN <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
                         INSPIRE <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
-                        CREATE <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
+                        LEAD <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
                         DESIGN <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
-                        INSPIRE <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
+                        LEAD <img src={star} alt="star" className="marquee-star2 w-[7vw]" />
                     </span>
                 </div>
             </div>

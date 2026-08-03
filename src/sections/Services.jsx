@@ -10,36 +10,36 @@ const Services = () => {
             </div>
 
             <div className="relative">
-                <div className=" bg-black text-white pt-16 lg:pt-20 min-h-[55vh] sticky top-0">
+                {/*<div className=" bg-[#E9E9F0]  text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-0">*/}
+                {/*    <div className="main-container grid grid-cols-1 md:grid-cols-2*/}
+                {/*    gap-6 lg:gap-12 items-center">*/}
+                {/*        <div className="flex gap-6 lg:gap-8">*/}
+                {/*            <span className="text-gray-400 text-lg lg:text-2xl font-heading*/}
+                {/*            tracking-wide block mb-4">01</span>*/}
+                {/*            <h2 className="text-[8vw] md:text-6xl font-heading*/}
+                {/*            font-bold leading-none">Campus Leader|<br/> Notion</h2>*/}
+                {/*        </div>*/}
+                {/*        <div className="flex items-center pb-20">*/}
+                {/*            <p className="text-lg lg:text-xl leading-relaxed">*/}
+                {/*                Spearheading tech and productivity initiatives across*/}
+                {/*                Constructor University by orchestrating campus-wide*/}
+                {/*                hackathons and interactive workshops. I actively*/}
+                {/*                produce digital content and architect custom workspace*/}
+                {/*                templates designed to help hundreds of students*/}
+                {/*                streamline their academic and software development*/}
+                {/*                workflows. By managing the logistics and promotion*/}
+                {/*                of these events, I serve as the primary bridge between*/}
+                {/*                Notion’s ecosystem and our university’s engineering community.*/}
+                {/*            </p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                <div className=" bg-black text-white pt-16 lg:pt-20 min-h-[55vh] sticky top-12 ">
                     <div className="main-container grid grid-cols-1 md:grid-cols-2
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
                             <span className="text-gray-400 text-lg lg:text-2xl font-heading
                             tracking-wide block mb-4">01</span>
-                            <h2 className="text-[8vw] md:text-6xl font-heading
-                            font-bold leading-none">Campus Leader|<br/> Notion</h2>
-                        </div>
-                        <div className="flex items-center pb-20">
-                            <p className="text-lg lg:text-xl leading-relaxed">
-                                Spearheading tech and productivity initiatives across
-                                Constructor University by orchestrating campus-wide
-                                hackathons and interactive workshops. I actively
-                                produce digital content and architect custom workspace
-                                templates designed to help hundreds of students
-                                streamline their academic and software development
-                                workflows. By managing the logistics and promotion
-                                of these events, I serve as the primary bridge between
-                                Notion’s ecosystem and our university’s engineering community.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className=" bg-[#E9E9F0] text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-12 ">
-                    <div className="main-container grid grid-cols-1 md:grid-cols-2
-                    gap-6 lg:gap-12 items-center">
-                        <div className="flex gap-6 lg:gap-8">
-                            <span className="text-gray-400 text-lg lg:text-2xl font-heading
-                            tracking-wide block mb-4">02</span>
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Software Engineering Intern |<br/> Cybervision</h2>
                         </div>
@@ -60,7 +60,7 @@ const Services = () => {
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
                             <span className="text-gray-400 text-lg lg:text-2xl font-heading
-                            tracking-wide block mb-4">03</span>
+                            tracking-wide block mb-4">02</span>
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Tech Team |<br/> Google Developer Groups (GDG)</h2>
                         </div>
@@ -83,7 +83,7 @@ const Services = () => {
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
                             <span className="text-gray-400 text-lg lg:text-2xl font-heading
-                            tracking-wide block mb-4">04</span>
+                            tracking-wide block mb-4">03</span>
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Featured Photographer |<br/> New York Auction</h2>
                         </div>
