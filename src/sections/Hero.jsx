@@ -83,7 +83,7 @@ const Hero = () => {
                     <h1 className='text-3xl lg:text-[3.2vw] uppercase font-heading
                     font-semibold'>Rayyan Khattak</h1>
                     <h2 className='text-6xl lg:text-[8vw] font-heading font-bold
-                    leading-none tracking-tight mt-3 mb-6'>Software Engineer <br/> & <span className='text-stroke'> Photographer </span> </h2>
+                    leading-none tracking-tight mt-3 mb-6'>Software Engineer <br/> & <span className='text-stroke'> Designer </span> </h2>
                     <GradientButton
                         text="Let's Connect"
                         link="https://www.linkedin.com/in/rayyan-khattak/"

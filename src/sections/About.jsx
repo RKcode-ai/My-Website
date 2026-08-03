@@ -11,29 +11,31 @@ const About = () => {
     const aboutRef = useRef(null)
 
     useGSAP(() => {
-        SplitText.create(".about-text", {
-            type: "lines, chars",
-            onSplit(self) {
-                gsap.set(self.chars, {
-                    opacity: 0.2
-                })
-                gsap.to(self.chars, {
-                    opacity: 1,
-                    stagger: 0.05,
-                    scrollTrigger: {
-                        trigger: aboutRef.current,
-                        start: "top 70%",
-                        end: "center center",
-                        scrub: 1
-                    }
-                })
-            }
-        })
+        document.fonts.ready.then(() => {
+            SplitText.create(".about-text", {
+                type: "lines, words, chars",
+                onSplit(self) {
+                    gsap.set(self.chars, {
+                        opacity: 0.2
+                    })
+                    gsap.to(self.chars, {
+                        opacity: 1,
+                        stagger: 0.05,
+                        scrollTrigger: {
+                            trigger: aboutRef.current,
+                            start: "top 70%",
+                            end: "center center",
+                            scrub: 1
+                        }
+                    })
+                }
+            })
+        });
     })
 
     return (
         <>
-            <div ref={aboutRef} className="relative z-20 h-screen bg-white rounded-tl-[60px] rounded-tr-[60px]">
+            <div ref={aboutRef} className="relative z-20 min-h-screen bg-white rounded-tl-[60px] rounded-tr-[60px] py-16 lg:py-90">
                 <div className="about-text flex justify-center items-center
                 main-container py-4 lg:py-12 h-full font-heading text-black text-2xl md:text-3xl
                 xl:text-5xl leading-tight">

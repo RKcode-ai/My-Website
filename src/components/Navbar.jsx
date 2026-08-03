@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav ref={navbarRef} className='fixed top-0 w-full mix-blend-difference z-30'>
+            <nav ref={navbarRef} className='fixed top-0 w-full mix-blend-difference z-50'>
                 <div className="main-container py-6 flex justify-between items-center">
                     <img src={Logo} alt="Logo" className="h-10 w-auto" />
                     <div onClick={() => setMenuOpen(!menuOpen)} className="flex flex-col gap-1.5 cursor-pointer">
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            <div className={`fixed z-20 inset-0 bg-black text-white flex flex-col items-center justify-center
+            <div className={`fixed z-40 inset-0 bg-black text-white flex flex-col items-center justify-center
                 text-3xl gap-8 transition-transform duration-500 ${menuOpen ? `translate-y-0 `: `-translate-y-full`} `} onClick={() => setMenuOpen(false)}>
                 <Link to="/" className={"menu-link"}>Home</Link>
                 <Link to="/projects" className={"menu-link"}>Projects</Link>

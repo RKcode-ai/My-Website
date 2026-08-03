@@ -10,7 +10,7 @@ const Services = () => {
             </div>
 
             <div className="relative">
-                <div className="shadow-xl bg-black text-white pt-16 lg:pt-20 min-h-[55vh] sticky top-0">
+                <div className=" bg-black text-white pt-16 lg:pt-20 min-h-[55vh] sticky top-0">
                     <div className="main-container grid grid-cols-1 md:grid-cols-2
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
@@ -19,7 +19,7 @@ const Services = () => {
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Campus Leader|<br/> Notion</h2>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center pb-20">
                             <p className="text-lg lg:text-xl leading-relaxed">
                                 Spearheading tech and productivity initiatives across
                                 Constructor University by orchestrating campus-wide
@@ -34,7 +34,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shadow-xl bg-[#E9E9F0] text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-12 ">
+                <div className=" bg-[#E9E9F0] text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-12 ">
                     <div className="main-container grid grid-cols-1 md:grid-cols-2
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
@@ -43,7 +43,7 @@ const Services = () => {
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Software Engineering Intern |<br/> Cybervision</h2>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center pb-20">
                             <p className="text-lg lg:text-xl leading-relaxed">
                                 Gained hands-on experience in a professional engineering
                                 environment by contributing to real-world codebases.
@@ -55,7 +55,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shadow-xl bg-[#FFF5EB] text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-24 ">
+                <div className=" bg-[#FFF5EB] text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-24 ">
                     <div className="main-container grid grid-cols-1 md:grid-cols-2
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
@@ -64,7 +64,7 @@ const Services = () => {
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Tech Team |<br/> Google Developer Groups (GDG)</h2>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center pb-20">
                             <p className="text-lg lg:text-xl leading-relaxed">
                                 Driving technical engagement on campus by managing
                                 digital infrastructure and leading hands-on student
@@ -78,7 +78,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shadow-xl bg-white text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-36 ">
+                <div className=" bg-white text-black pt-16 lg:pt-20 min-h-[55vh] sticky top-36 ">
                     <div className="main-container grid grid-cols-1 md:grid-cols-2
                     gap-6 lg:gap-12 items-center">
                         <div className="flex gap-6 lg:gap-8">
@@ -87,7 +87,7 @@ const Services = () => {
                             <h2 className="text-[8vw] md:text-6xl font-heading
                             font-bold leading-none">Featured Photographer |<br/> New York Auction</h2>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex items-center pb-20">
                             <p className="text-lg lg:text-xl leading-relaxed">
                                 Beyond writing code, I manage end-to-end multimedia
                                 content creation, from set design and lighting to
